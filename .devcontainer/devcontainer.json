@@ -1,0 +1,20 @@
+{
+  "name": "Dev Container",
+  "dockerComposeFile": [
+    "../docker-compose.yml"
+  ],
+  "service": "api-server",
+  "runServices": [
+    "api-server"
+  ],
+  "workspaceFolder": "/work/udemy-nestjs",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-ceintl.vscode-language-pack-ja",
+				"wallabyjs.quokka-vscode",
+				"whtouche.vscode-js-console-utils"
+      ]
+    }
+  }
+}
